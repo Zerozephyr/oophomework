@@ -20,36 +20,7 @@ cpp_experiments/
 ├── task2.cpp          # 实验任务二：统计字符串中的元音字母个数
 ├── task3.cpp          # 实验任务三：多功能计算器
 ├── task4.cpp          # 实验任务四：函数重载
-├── compile_and_run.sh # 编译和运行脚本
-├── build_and_run.sh   # 使用CMake的编译和运行脚本（备用）
-├── CMakeLists.txt     # CMake构建文件（备用）
 └── README.md          # 项目说明文档
-```
-
-## 编译和运行
-
-### 方法一：使用编译脚本（推荐）
-
-```bash
-chmod +x compile_and_run.sh
-./compile_and_run.sh
-```
-
-### 方法二：手动编译
-
-```bash
-g++ -std=c++11 -o cpp_experiments main.cpp task1.cpp task2.cpp task3.cpp task4.cpp
-./cpp_experiments
-```
-
-### 方法三：使用CMake（备用）
-
-```bash
-mkdir -p build
-cd build
-cmake ..
-make
-./cpp_experiments
 ```
 
 ## 使用说明
